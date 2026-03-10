@@ -1,0 +1,43 @@
+.section-one {
+  background-image: url("images/first-section-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1770 / 685;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  //Text container
+  &-layout-one {
+    max-width: 35em;
+    width: 100%;
+
+    p {
+      margin: 2em 0;
+    }
+
+    button {
+      margin-top: 2em;
+    }
+  }
+
+  //Image container
+  &-layout-two {
+    max-width: 27.5em;
+    width: 100%;
+
+    .img-two {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 0.5em;
+    }
+  }
+}

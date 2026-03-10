@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,15 +13,22 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: $color-background;
+  color: $colour-primary;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: $colour-primary;
 }
 
 .center {
   max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
 }

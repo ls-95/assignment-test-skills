@@ -4,7 +4,7 @@ form {
   max-width: 40em;
   width: 100%;
   margin-top: 3em;
-  background-color: #fff;
+  background-color: $colour-primary;
   padding: 2px;
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@ form {
   }
 
   input[type="text"]::placeholder {
-    font-size: $small-size;
+    font-size: $size-small;
     color: #999;
     letter-spacing: 2.8px;
     line-height: 1.857;
