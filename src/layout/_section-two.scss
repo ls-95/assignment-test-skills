@@ -1,0 +1,36 @@
+@use "../base/variables" as *;
+
+.section-two {
+  text-align: center;
+
+  &-container {
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .svg-curve {
+    min-height: 25vh;
+  }
+
+  i {
+    font-size: 3.75em;
+    padding: 10px;
+    margin-bottom: 0.5em;
+    background-color: $color-background;
+    border-radius: 50%;
+  }
+
+  p {
+    font-size: 2.25em;
+  }
+
+  &-icon-one {
+    color: $colour-secondary;
+  }
+
+  &-icon-two {
+    color: #ff6363;
+  }
+}

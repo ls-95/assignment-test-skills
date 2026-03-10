@@ -1,9 +1,5 @@
 @use "../base/variables" as *;
 
-header {
-  min-height: 100vh;
-}
-
 .hero-section {
   background-image: url("images/hero-image.png");
   background-size: cover;
