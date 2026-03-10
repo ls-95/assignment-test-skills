@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 .section-one {
   background-image: url("images/first-section-background.png");
   aspect-ratio: 1770 / 685;
@@ -15,11 +17,11 @@
     width: 100%;
 
     p {
-      margin: 2em 0;
+      margin: $size-big 0;
     }
 
     button {
-      margin-top: 2em;
+      margin-top: $size-big;
     }
   }
 
@@ -31,23 +33,26 @@
     .img-two {
       display: flex;
       justify-content: flex-end;
-      margin-top: 0.5em;
+      margin-top: $size-smaller;
     }
   }
 }
 
 @media screen and (max-width: 1200px) {
   .section-one {
-    padding: 5em;
+    padding: $size-larger;
     text-align: center;
     &-container {
       display: flex;
       flex-direction: column;
     }
 
+    &-layout-one {
+      padding-bottom: $size-big;
+    }
+
     &-layout-two {
-      max-width: 80vw;
-      padding: 2em;
+      max-width: 75vw;
 
       .img-one,
       .img-two {
@@ -59,8 +64,21 @@
 
 @media screen and (max-width: 768px) {
   .section-one {
+    h2 {
+      line-height: 1.5;
+    }
+
     img {
       max-width: 80%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-one {
+    img {
+      max-width: 100%;
       width: 100%;
     }
   }

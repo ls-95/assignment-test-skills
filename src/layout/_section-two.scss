@@ -17,9 +17,7 @@
   i {
     font-size: 3.75em;
     padding: 10px;
-    margin-bottom: 0.5em;
-    background-color: $color-background;
-    border-radius: 50%;
+    margin-bottom: $size-smaller;
   }
 
   p {
@@ -32,13 +30,13 @@
   }
 
   &-icon-two {
-    color: #ff6363;
+    color: $color-red;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .section-two {
-    padding: 2em;
+    padding: $size-big;
 
     .svg-curve {
       max-height: 25vh;
@@ -48,7 +46,7 @@
 
 @media screen and (max-width: 768px) {
   .section-two {
-    padding: 3em;
+    padding: $size-large;
     height: auto;
 
     &-container {
@@ -57,7 +55,7 @@
     }
 
     p {
-      font-size: 2em;
+      font-size: $size-big;
     }
 
     .svg-curve {
@@ -65,7 +63,7 @@
     }
 
     &-icon {
-      padding: 2em;
+      padding: $size-big;
     }
   }
 }

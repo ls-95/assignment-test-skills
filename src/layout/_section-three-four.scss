@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 .section-three {
   background-image: url("images/third-section-background.png");
 }
@@ -17,14 +19,14 @@
   align-items: flex-end;
 
   .text-box {
-    max-width: 540px;
+    max-width: 33.75em;
     width: 100%;
     background-color: rgba(35, 35, 35, 0.9);
-    padding: 3em 1.75em;
+    padding: $size-large 1.75em;
   }
 
   h3 {
-    padding-bottom: 1em;
+    padding-bottom: $size-normal;
   }
 
   p {
@@ -54,11 +56,12 @@
   .section-three,
   .section-four {
     .center {
-      padding: 2em;
+      padding: $size-larger 0;
     }
     .text-box {
       max-width: 60%;
       width: 100%;
+      padding: $size-large;
     }
   }
 }
@@ -67,11 +70,11 @@
   .section-three,
   .section-four {
     .center {
-      padding: 3em;
+      padding: $size-large 0;
     }
 
     .text-box {
-      max-width: 80%;
+      max-width: 70%;
       width: 100%;
     }
   }
@@ -81,7 +84,7 @@
   .section-three,
   .section-four {
     .text-box {
-      max-width: 90%;
+      max-width: 100%;
       width: 100%;
     }
   }

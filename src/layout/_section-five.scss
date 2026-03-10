@@ -34,7 +34,8 @@
 
 @media screen and (max-width: 1200px) {
   .section-five {
-    padding: 2em;
+    padding: $size-larger;
+
     .information-container {
       display: flex;
       flex-direction: column;
@@ -43,7 +44,7 @@
 
     .text-container {
       background-color: #333;
-      margin-top: 2em;
+      margin-top: $size-big;
     }
 
     .img-container {
@@ -60,7 +61,7 @@
 
 @media screen and (max-width: 768px) {
   .section-five {
-    padding: 3em;
+    padding: $size-large;
 
     h2 {
       line-height: 1.5;
