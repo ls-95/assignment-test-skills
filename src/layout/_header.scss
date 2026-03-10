@@ -47,6 +47,11 @@
     position: relative;
     top: 2px;
   }
+
+  &-scroll-down a:focus,
+  &-small-text:focus {
+    border: 1px solid #000;
+  }
 }
 
 @media screen and (max-width: 992px) {
