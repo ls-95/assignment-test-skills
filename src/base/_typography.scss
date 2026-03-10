@@ -28,6 +28,18 @@ h2 {
   margin-bottom: 1.5em;
 }
 
+h3,
+.country {
+  font-size: 1.25em;
+  line-height: 1.2;
+  font-family: $font-primary;
+  font-weight: normal;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
 //Text styles
 .text {
   font-size: $size-normal;

@@ -1,0 +1,44 @@
+.section-three {
+  background-image: url("images/third-section-background.png");
+}
+
+.section-four {
+  background-image: url("images/fourth-section-background.png");
+
+  .center {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.section-three,
+.section-four {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1770 / 770;
+  padding: 5em 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .text-box {
+    max-width: 540px;
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.9);
+    padding: 3em 1.75em;
+  }
+
+  h3 {
+    padding-bottom: 1em;
+  }
+
+  p {
+    padding-bottom: 1.4em;
+  }
+
+  button {
+    margin-top: 1.4em;
+  }
+}
