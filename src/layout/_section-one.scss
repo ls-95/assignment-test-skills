@@ -36,10 +36,31 @@
   }
 }
 
-// @media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .section-one {
+    padding: 5em;
+    text-align: center;
+    &-container {
+      display: flex;
+      flex-direction: column;
+    }
 
-// }
+    &-layout-two {
+      max-width: 80vw;
+      padding: 2em;
 
-// @media screen and (max-width: 768px) {
+      .img-one,
+      .img-two {
+        justify-content: center;
+      }
+    }
+  }
+}
 
-// }
+@media screen and (max-width: 768px) {
+  .section-one {
+    img {
+      width: 80%;
+    }
+  }
+}
