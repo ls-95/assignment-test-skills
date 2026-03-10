@@ -31,3 +31,44 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .section-five {
+    padding: 2em;
+    .information-container {
+      display: flex;
+      flex-direction: column;
+      background-color: transparent;
+    }
+
+    .text-container {
+      background-color: #333;
+      margin-top: 2em;
+    }
+
+    .img-container {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    img {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-five {
+    padding: 3em;
+
+    h2 {
+      line-height: 1.5;
+    }
+
+    img {
+      margin: 0 auto;
+      width: 70%;
+    }
+  }
+}
