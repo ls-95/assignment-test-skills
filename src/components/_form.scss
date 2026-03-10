@@ -14,6 +14,7 @@ form {
     flex: 1;
     text-align: center;
     outline: none;
+    height: 100%;
   }
 
   input[type="text"]::placeholder {
@@ -21,5 +22,9 @@ form {
     color: #999;
     letter-spacing: 2.8px;
     line-height: 1.857;
+  }
+
+  input[type="text"]:focus {
+    background-color: #bac7ff;
   }
 }

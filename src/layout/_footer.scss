@@ -25,7 +25,20 @@
     margin-right: 1em;
   }
 
-  i:nth-child(3) {
+  a:hover {
     color: $colour-secondary;
+  }
+
+  .blue {
+    color: $colour-secondary;
+  }
+
+  .blue i:hover {
+    color: $colour-primary;
+  }
+
+  a:active {
+    position: relative;
+    top: 2px;
   }
 }

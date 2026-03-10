@@ -20,3 +20,13 @@
   line-height: 1.625;
   letter-spacing: 1.2px;
 }
+
+.btn:hover {
+  background-color: #7890fb;
+}
+
+.btn:active {
+  background-color: #2e54fe;
+  position: relative;
+  top: 2px;
+}

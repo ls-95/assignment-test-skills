@@ -8,11 +8,17 @@
   aspect-ratio: 1770 / 820;
   display: grid;
   grid-template-rows: 3fr 2fr;
+
   &-center {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  .btn i {
+    font-size: 1.2em;
+    padding-left: 0.5em;
   }
 
   &-scroll-down {
@@ -34,8 +40,14 @@
     letter-spacing: 1.4px;
   }
 
-  .btn i {
-    font-size: 1.2em;
-    padding-left: 0.5em;
+  &-scroll-down a:hover,
+  &-small-text:hover {
+    color: #ff6363;
+  }
+
+  &-scroll-down a:active,
+  &-small-text:active {
+    position: relative;
+    top: 2px;
   }
 }
