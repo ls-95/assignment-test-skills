@@ -1,0 +1,25 @@
+@use "../base/variables" as *;
+
+form {
+  max-width: 40em;
+  width: 100%;
+  margin-top: 3em;
+  background-color: #fff;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+
+  input[type="text"] {
+    border: none;
+    flex: 1;
+    text-align: center;
+    outline: none;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: $small-size;
+    color: #999;
+    letter-spacing: 2.8px;
+    line-height: 1.857;
+  }
+}

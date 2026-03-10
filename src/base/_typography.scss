@@ -1,0 +1,38 @@
+@use "variables" as *;
+
+//Font family
+h1,
+p,
+input,
+h3 {
+  font-family: $font-primary;
+}
+
+h2,
+button,
+li a {
+  font-family: $font-secondary;
+}
+
+//heading styles
+h1 {
+  font-size: $larger-size;
+  letter-spacing: 4.8px;
+  line-height: 0.541;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 0.722;
+}
+
+//Text styles
+.text {
+  font-size: 1em;
+  line-height: 1.625;
+}
+
+.text-one {
+  letter-spacing: 1.6px;
+}

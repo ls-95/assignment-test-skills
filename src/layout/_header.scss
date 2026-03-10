@@ -1,0 +1,43 @@
+header {
+  min-height: 100vh;
+}
+
+.hero-section {
+  background-image: url("images/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1770 / 820;
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+  &-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-scroll-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-slogan {
+    font-size: 1.375em;
+    line-height: 1.2;
+    letter-spacing: 6.82px;
+  }
+
+  &-small-text {
+    font-size: 0.875em;
+    line-height: 1.86;
+    letter-spacing: 1.4px;
+  }
+
+  .btn i {
+    font-size: 1.2em;
+    padding-left: 0.5em;
+  }
+}

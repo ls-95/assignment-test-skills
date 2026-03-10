@@ -3,36 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Discover and search safe travel destinations around the world. Plan your next adventure with confidence."
-    />
-    <meta name="author" content="Laetitia Saunders" />
-    <script
-      src="https://kit.fontawesome.com/a8156b8a54.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="src/base/normalize.css" />
-    <link rel="stylesheet" href="src/index.css" />
-    <title>Bhromaon</title>
-  </head>
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover and search safe travel destinations around the world. Plan your next adventure with confidence." />
+  <meta name="author" content="Laetitia Saunders" />
+
+  
+  <title>Bhromaon</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="src/base/normalize.css" />
+  <link rel="stylesheet" href="src/index.css" />
+
+  
+  <script src="https://kit.fontawesome.com/a8156b8a54.js" crossorigin="anonymous"></script>
+</head>
   <body>
     <header>
       <!--Hero section-->
-      <div class="hero-section-container">
-        <div>
-          <h1></h1>
-          <p></p>
+      <div class="hero-section">
+        <div class="hero-section-center">
+          <h1>Bhromaon</h1>
+          <p class="hero-section-slogan">Safe Travel Anywhere</p>
           <form action="/">
-            <input type="text" />
-            <button>Search</button>
+            <input
+              type="text"
+              id="search"
+              placeholder="Search Your Travel Destinations"
+            />
+            <button class="btn btn-hero">
+              Search <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
           </form>
+        </div>
+        <div class="hero-section-scroll-down">
+          <p class="hero-section-small-text">
+            <a href="#section1">Scroll Down</a>
+          </p>
+          <i class="fa-solid fa-angle-down"></i>
         </div>
       </div>
       <!--Navbar-->
@@ -54,106 +73,117 @@
     </header>
     <main>
       <!--First section-->
-      <section class="section-one">
-        <div>
-          <h2>Why Choose Us</h2>
-          <p>
-            Tion and dislike men who are so beguiled and demoralized by desire
-            by the charms of pleasure of the moment, so blinded by desire, that
-            they cannot foresee <br /><br />Ddislike men who are so beguiled and
-            demoralized by the charms of pleasure of the moment, so blinded by
-            desire, that.
-          </p>
-          <button>Explore places</button>
-        </div>
-        <div class="section-one-img-container">
-          <img
-            src="src/images/first-section-one.png"
-            alt="A photo of a house by a river"
-          />
-          <img
-            src="src/images/first-section-two.png"
-            alt="A photo of a man standing on top of a cliff looking out at the view"
-          />
-        </div>
-      </section>
-      <!--Second section-->
-      <section class="section-two">
-        <!--Icon-->
-        <div class="section-two-icon-container">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <p>Search Places</p>
-        </div>
-        <!--Icon-->
-        <div class="section-two-icon-container">
-          <i class="fa-regular fa-circle-check"></i>
-          <p>Select Places</p>
-        </div>
-        <!--Icon-->
-        <div class="section-two-icon-container">
-          <i class="fa-regular fa-thumbs-up"></i>
-          <p>Book & Enjoy</p>
-        </div>
-      </section>
-      <!--Third section-->
-      <section class="section-three">
-        <div>
+      <section class="section-one" id="section1">
+        <div class="center">
           <div>
-            <p>Spain</p>
-            <h3>Grand Spain Madrid</h3>
-            <p>
-              But I must explain to you how all this mistaken idea of account to
-              denouncing pleasure and praising pain was account born and I
-              account will give you a complete account of the system
+            <h2>Why Choose Us</h2>
+            <p class="text text-one">
+              Tion and dislike men who are so beguiled and demoralized by desire
+              by the charms of pleasure of the moment, so blinded by desire,
+              that they cannot foresee <br /><br />Ddislike men who are so
+              beguiled and demoralized by the charms of pleasure of the moment,
+              so blinded by desire, that.
             </p>
-            <button>Book now</button>
+            <button class="button-main">Explore places</button>
           </div>
-        </div>
-      </section>
-      <!--Fourth section-->
-      <section class="section-four">
-        <div>
-          <div>
-            <p>Spain</p>
-            <h3>Grand Spain Madrid</h3>
-            <p>
-              But I must explain to you how all this mistaken idea of account to
-              denouncing pleasure and praising pain was account born and I
-              account will give you a complete account of the system
-            </p>
-            <button>Book now</button>
-          </div>
-        </div>
-      </section>
-      <!--Fifth section-->
-      <section class="section-five">
-        <h2>What Our Tourist Say</h2>
-        <div>
-          <div>
+          <div class="section-one-img-container">
             <img
-              src="src/images/fourth-section-image.png"
-              alt="A man on top of a mountain looking at the view"
+              src="src/images/first-section-one.png"
+              alt="A photo of a house by a river"
+            />
+            <img
+              src="src/images/first-section-two.png"
+              alt="A photo of a man standing on top of a cliff looking out at the view"
             />
           </div>
-          <div>
-            <h3>Sam Sumon</h3>
-            <p>
-              <i class="fa-solid fa-quote-left"></i> But I must explain to you
-              how all this mistaken idea of account to denouncinpleasure and
-              praising pain But I must explain to you how all this mistaken idea
-              of account to nai denouncing pleasure and praising pain was
-              account born and I account will give you a complete account of the
-              system was account born and I account will give you a nai the
-              complete account of the system
-            </p>
+        </div>
+      </section>
+
+      <!--Second section-->
+      <section class="section-two">
+        <div class="center">
+          <!--Icon-->
+          <div class="section-two-icon-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Search Places</p>
+          </div>
+          <!--Icon-->
+          <div class="section-two-icon-container">
+            <i class="fa-regular fa-circle-check"></i>
+            <p>Select Places</p>
+          </div>
+          <!--Icon-->
+          <div class="section-two-icon-container">
+            <i class="fa-regular fa-thumbs-up"></i>
+            <p>Book & Enjoy</p>
           </div>
         </div>
       </section>
+
+      <!--Third section-->
+      <section class="section-three">
+        <div class="center">
+          <div>
+            <p>Spain</p>
+            <h3>Grand Spain Madrid</h3>
+            <p class="text">
+              But I must explain to you how all this mistaken idea of account to
+              denouncing pleasure and praising pain was account born and I
+              account will give you a complete account of the system
+            </p>
+            <button>Book now</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Fourth section-->
+      <section class="section-four">
+        <div class="center">
+          <div>
+            <p>Spain</p>
+            <h3>Grand Spain Madrid</h3>
+            <p class="text">
+              But I must explain to you how all this mistaken idea of account to
+              denouncing pleasure and praising pain was account born and I
+              account will give you a complete account of the system
+            </p>
+            <button>Book now</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Fifth section-->
+      <section class="section-five">
+        <div class="center">
+          <h2>What Our Tourist Say</h2>
+          <div>
+            <div>
+              <img
+                src="src/images/fourth-section-image.png"
+                alt="A man on top of a mountain looking at the view"
+              />
+            </div>
+            <div>
+              <h3>Sam Sumon</h3>
+              <p class="text">
+                <i class="fa-solid fa-quote-left"></i> But I must explain to you
+                how all this mistaken idea of account to denouncinpleasure and
+                praising pain But I must explain to you how all this mistaken
+                idea of account to nai denouncing pleasure and praising pain was
+                account born and I account will give you a complete account of
+                the system was account born and I account will give you a nai
+                the complete account of the system
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!--Footer-->
       <footer>
         <div>
           <p class="footer-logo">Bhromaon</p>
-          <p class="footer-slogan">Safe Travel Anywhere</p>
+          <p class="footer-slogan text text-one">Safe Travel Anywhere</p>
           <div class="footer-icons">
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
