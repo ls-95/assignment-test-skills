@@ -35,3 +35,37 @@
     color: #ff6363;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .section-two {
+    padding: 2em;
+
+    .svg-curve {
+      max-height: 25vh;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-two {
+    padding: 3em;
+    height: auto;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
+    .svg-curve {
+      display: none;
+    }
+
+    &-icon {
+      padding: 2em;
+    }
+  }
+}
