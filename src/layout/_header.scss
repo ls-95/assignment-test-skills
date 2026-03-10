@@ -16,11 +16,6 @@
     align-items: center;
   }
 
-  .btn i {
-    font-size: 1.2em;
-    padding-left: 0.5em;
-  }
-
   &-scroll-down {
     display: flex;
     flex-direction: column;
@@ -49,5 +44,27 @@
   &-small-text:active {
     position: relative;
     top: 2px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-center,
+    &-scroll-down {
+      padding: 2em;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    &-slogan {
+      font-size: 1em;
+    }
   }
 }

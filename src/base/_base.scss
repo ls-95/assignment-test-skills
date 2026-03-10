@@ -42,3 +42,21 @@ a {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .section {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
