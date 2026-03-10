@@ -2,6 +2,21 @@
 
 nav {
   background-color: $colour-secondary;
+
+  li:hover,
+  p:hover {
+    background-color: #7890fb;
+  }
+
+  li:active,
+  p:active {
+    background-color: #2e54fe;
+  }
+
+  a:active {
+    position: relative;
+    top: 2px;
+  }
 }
 
 .navbar {
@@ -43,19 +58,54 @@ nav {
       padding: 1.65em;
     }
   }
+
+  .hamburger-btn-container {
+    display: none;
+  }
 }
 
-nav li:hover,
-nav p:hover {
-  background-color: #7890fb;
+@media screen and (max-width: 992px) {
+  nav {
+    font-size: 14px;
+  }
 }
 
-nav li:active,
-nav p:active {
-  background-color: #2e54fe;
-}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
 
-nav a:active {
-  position: relative;
-  top: 2px;
+    &-links {
+      width: 100%;
+
+      .navbar-pages {
+        display: none;
+      }
+
+      .navbar-pages.is-open {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .hamburger-btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      padding: 1em;
+      margin-left: auto;
+    }
+
+    .hamburger-btn {
+      font-size: 1.2em;
+      color: #fff;
+      background-color: $colour-secondary;
+      border: none;
+    }
+
+    .hamburger-btn:active {
+      position: relative;
+      top: 2px;
+    }
+  }
 }
